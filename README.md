@@ -230,6 +230,6 @@ destination=GoogleSheetsDest(
 ## Running the tests
 
 ```bash
-pip install -e "googlesheets[test]"
-pytest googlesheets/tests
+pip install -e ".[test]"
+pytest tests
 ```
